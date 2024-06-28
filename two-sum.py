@@ -8,5 +8,5 @@ def twoSum(nums, target):
                 # if((nums[i]+nums[b])==target):
                     return [i, b]
 nums = [2,4,5,6,8] # You can adjust it
-target = 9 # You should write something which your two values from num can add to form
+target = 9 # You should write something which your two values from nums can add to become
 print(twoSum(nums, target))
