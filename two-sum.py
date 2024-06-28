@@ -3,6 +3,6 @@ def twoSum(nums, target):
             for b in range(i+1, len(nums)):
                 if((nums[i]+nums[b]) == target):
                     return [i, b]
-nums = [2,4,5,6,8]
-target = 9
+nums = [2,4,5,6,8] # You can adjust it
+target = 9 # You should write something which your two values from num can add to form
 print(twoSum(nums, target))
